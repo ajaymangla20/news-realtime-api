@@ -38,12 +38,6 @@ Create a `.env` file in your project directory:
 NEWS_API_KEY=your_api_key_here
 ```
 
-Make sure your script includes:
-
-```python
-from dotenv import load_dotenv
-load_dotenv()
-```
 
 ---
 
