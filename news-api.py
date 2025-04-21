@@ -5,7 +5,7 @@ import os
 
 API_KEY = os.getenv("NEWS_API_KEY")
 
-url = f"https://newsapi.org/v2/everything?q=stocks&apiKey={API_KEY}"
+url = f"https://newsapi.org/v2/everything?q=stocks&sources=bloomberg,financial-times,cnbc&apiKey={API_KEY}"
 
 try:
     # Send GET request with a timeout of 10 seconds
