@@ -106,12 +106,4 @@ Never hardcode API keys into your script. Use environment variables or `.env` fi
 
 ---
 
-## 📄 License
 
-MIT License
-
----
-
-## 🙌 Acknowledgements
-
-Thanks to [NewsAPI.org](https://newsapi.org/) for providing the news data.
